@@ -7,22 +7,25 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Manal Liaquat",
+  title: "Hi all, I'm Manal",
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / ReactJS / NextJS / NodeJS / MongoDB / ExpressJS / React Native and some other cool libraries and frameworks."),
+  resumeLink: ""
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
-  // Instagram and Twitter are also supported in the links!
+  github: "https://github.com/manalliaquat",
+  linkedin: "https://www.linkedin.com/in/manalliaquat/",
+  gmail: "m.manalliaquat@gmail.com",
+  // gitlab: "https://gitlab.com/manalliaquat",
+  facebook: "https://www.facebook.com/saad.pasta7",
+  instagram: "https://www.instagram.com/manal.liaquat/",
+  twitter: "https://twitter.com/manalliaquat",
+  freeCodeCamp: "https://www.freecodecamp.org/manalliaquat",
+  codePen: "https://codepen.io/ManalLiaquat"
 };
 
 // Your Skills Section
@@ -33,11 +36,12 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Integration of third party services such as Firebase"),
+    emoji("⚡ Written some scripts on Google Adwords Scripts to run Youtube ads")
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Make Sure You include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -47,10 +51,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -65,20 +65,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "firebase",
@@ -89,9 +77,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "nextjs",
+      fontAwesomeClassname: "fab fa-js-square"
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "expressjs",
+      fontAwesomeClassname: "fab fa-node-js"
+    },
   ]
 };
 
@@ -106,11 +102,15 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "65%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Code Structure",
+      progressPercentage: "70%"
     }
   ]
 };
@@ -122,29 +122,25 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.webp"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Consultant Developer",
+      company: "Digital MarknAdsPlan",
+      companylogo: require("./assets/images/digitalMarknAdsPlan.webp"),
+      date: "June 2020 – Present",
+      desc: "Working as a consultant developer.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Web Application Developer",
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.webp"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.webp"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "React Native Developer",
+      company: "Systems Avenue",
+      companylogo: require("./assets/images/systemsAvenue.webp"),
+      date: "March 2019 – June 2020",
+      desc: "Mainly worked as a senior mobile application developer.",
+      descBullets: [
+        "Mobile Application Developer",
+        "Web Application Developer"
+      ]
     },
   ]
 };
@@ -154,8 +150,8 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  githubUserName: "manalliaquat", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
 
@@ -165,14 +161,10 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
+    // {
+    //   image: "",
+    //   link: ""
+    // }
   ]
 };
 
@@ -185,29 +177,41 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Udacity Nano-Degree React",
+      subtitle: "Completed Certifcation from Udacity for Web and Mobile App Development.",
+      image: require("./assets/images/udacity.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Certification", url: "https://confirm.udacity.com/KHYFX7KF" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
       title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development.",
       image: require("./assets/images/pwaLogo.webp"),
+      footerLink: [{ name: "Certification", url: "" }]
+    },
+    {
+      title: "Web & Mobile App Developer",
+      subtitle: "Completed Certifcation from SMIT for Web and Mobile App Development",
+      image: require("./assets/images/smit.webp"),
       footerLink: [
         { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+      ]
+    },
+    {
+      title: "Legacy Front End Certification",
+      subtitle: "Completed Certifcation from FreeCodeCamp for Legacy Front End",
+      image: require("./assets/images/freecodecamp.webp"),
+      footerLink: [
+        { name: "Certification", url: "https://www.freecodecamp.org/certification/manalliaquat/legacy-front-end" },
+      ]
+    },
+    {
+      title: "JavaScript Algorithms and Data Structures",
+      subtitle: "Completed Certifcation from FreeCodeCamp for JavaScript Algorithms and Data Structures",
+      image: require("./assets/images/freecodecamp.webp"),
+      footerLink: [
+        { name: "Certification", url: "https://www.freecodecamp.org/certification/manalliaquat/javascript-algorithms-and-data-structures" },
       ]
     }
   ]
@@ -222,14 +226,9 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://medium.com/@m.manalliaquat/why-i-choose-react-ab215dffdb79",
+      title: "Why I choose React?",
+      description: "React was developed by Facebook in March 2013, now it is the most popular javascript library. React is used to create Single-Page Applications (SPA)."
     }
   ]
 };
@@ -241,12 +240,12 @@ const talkSection = {
   subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
 
   talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+    // {
+    //   title: "",
+    //   subtitle: "",
+    //   slides_url: "",
+    //   event_url: ""
+    // }
   ]
 };
 
@@ -257,21 +256,21 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  podcast: [""]
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3092091919",
+  email_address: "m.manalliaquat@gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-  
+  userName: "manalliaquat"//Replace "twitter" with your twitter username without @
+
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails };

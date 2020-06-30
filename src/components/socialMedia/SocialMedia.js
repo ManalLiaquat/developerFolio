@@ -62,6 +62,22 @@ export default function socialMedia() {
       :
       null}
 
+      {socialMediaLinks.freeCodeCamp ?
+      <a href={socialMediaLinks.freeCodeCamp} className="icon-button github" target="_blank">
+        <i className="fab fa-free-code-camp"></i>
+        <span></span>
+      </a>
+      :
+      null}
+
+      {socialMediaLinks.codePen ?
+      <a href={socialMediaLinks.codePen} className="icon-button github" target="_blank">
+        <i className="fab fa-codepen"></i>
+        <span></span>
+      </a>
+      :
+      null}
+
     </div>
   );
 }
