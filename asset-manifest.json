@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1060450.chunk.css",
+    "main.js": "/static/js/main.3c6c596f.chunk.js",
+    "main.js.map": "/static/js/main.3c6c596f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.03c62170.js",
+    "runtime-main.js.map": "/static/js/runtime-main.03c62170.js.map",
+    "static/js/2.8e5ac334.chunk.js": "/static/js/2.8e5ac334.chunk.js",
+    "static/js/2.8e5ac334.chunk.js.map": "/static/js/2.8e5ac334.chunk.js.map",
+    "static/css/3.b499fcd2.chunk.css": "/static/css/3.b499fcd2.chunk.css",
+    "static/js/3.1cfb55b9.chunk.js": "/static/js/3.1cfb55b9.chunk.js",
+    "static/js/3.1cfb55b9.chunk.js.map": "/static/js/3.1cfb55b9.chunk.js.map",
+    "static/css/4.01c87591.chunk.css": "/static/css/4.01c87591.chunk.css",
+    "static/js/4.ce1f5896.chunk.js": "/static/js/4.ce1f5896.chunk.js",
+    "static/js/4.ce1f5896.chunk.js.map": "/static/js/4.ce1f5896.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6fe096899a76404865002399fe9c9e31.js": "/precache-manifest.6fe096899a76404865002399fe9c9e31.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.b499fcd2.chunk.css.map": "/static/css/3.b499fcd2.chunk.css.map",
+    "static/css/4.01c87591.chunk.css.map": "/static/css/4.01c87591.chunk.css.map",
+    "static/css/main.e1060450.chunk.css.map": "/static/css/main.e1060450.chunk.css.map",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/contactMail.webp": "/static/media/contactMail.68e84138.webp",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
+    "static/media/digitalMarknAdsPlan.webp": "/static/media/digitalMarknAdsPlan.6ac0c651.webp",
+    "static/media/freecodecamp.webp": "/static/media/freecodecamp.f3b5e468.webp",
+    "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
+    "static/media/pwaLogo.webp": "/static/media/pwaLogo.ee62cb58.webp",
+    "static/media/skill.svg": "/static/media/skill.34409398.svg",
+    "static/media/smit.webp": "/static/media/smit.c4bbd74c.webp",
+    "static/media/systemsAvenue.webp": "/static/media/systemsAvenue.325dfdf5.webp",
+    "static/media/udacity.png": "/static/media/udacity.2e59467e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03c62170.js",
+    "static/js/2.8e5ac334.chunk.js",
+    "static/css/main.e1060450.chunk.css",
+    "static/js/main.3c6c596f.chunk.js"
+  ]
+}
