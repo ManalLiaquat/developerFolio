@@ -63,7 +63,7 @@ export default function socialMedia() {
       null}
 
       {socialMediaLinks.freeCodeCamp ?
-      <a href={socialMediaLinks.freeCodeCamp} className="icon-button github" target="_blank">
+      <a href={socialMediaLinks.freeCodeCamp} className="icon-button freecodecamp" target="_blank">
         <i className="fab fa-free-code-camp"></i>
         <span></span>
       </a>
