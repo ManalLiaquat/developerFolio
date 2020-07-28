@@ -21,7 +21,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/manalliaquat/",
   gmail: "m.manalliaquat@gmail.com",
   // gitlab: "https://gitlab.com/manalliaquat",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  facebook: "https://www.facebook.com/manal.liaquat.7",
   instagram: "https://www.instagram.com/manal.liaquat/",
   twitter: "https://twitter.com/manalliaquat",
   freeCodeCamp: "https://www.freecodecamp.org/manalliaquat",
