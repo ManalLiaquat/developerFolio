@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\ngrok;C:\ProgramData\chocolatey\bin;C:\Users\mmana\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\mmana\AppData\Local\GitHubDesktop\bin;C:\Users\mmana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mmana\AppData\Local\Microsoft\WindowsApps;C:\Users\mmana\AppData\Local\Yarn\bin;C:\Users\mmana\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.20.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'F:\Manal Files\Projects\DeveloperFolio\developerFolio\node_modules\@babel\helper-create-class-features-plugin\node_modules\debug\dist\debug.js'
+
+npm manifest: 
+  {
+    "homepage": "https://developerfolio.js.org/",
+    "name": "saadpasta.github.io",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@apollo/react-hooks": "^3.1.4",
+      "apollo-boost": "^0.4.4",
+      "colorthief": "^2.3.0",
+      "gh-pages": "^2.1.1",
+      "graphql": "^14.5.8",
+      "react": "^16.10.2",
+      "react-dom": "^16.10.2",
+      "react-easy-emoji": "^1.3.0",
+      "react-headroom": "^3.0.0",
+      "react-reveal": "^1.2.2",
+      "react-scripts": "^3.4.3",
+      "react-twitter-embed": "3.0.3"
+    },
+    "scripts": {
+      "predeploy": "npm run build",
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "deploy": "gh-pages -b master -d build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
