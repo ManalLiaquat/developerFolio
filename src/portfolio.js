@@ -178,7 +178,7 @@ const achievementSection = {
   achivementsCards: [
     {
       title: "Udacity Nano-Degree React",
-      subtitle: "Completed Certifcation from Udacity for Web and Mobile App Development.",
+      subtitle: "Completed Certification from Udacity for Web and Mobile App Development.",
       image: require("./assets/images/udacity.png"),
       footerLink: [
         { name: "Certification", url: "https://confirm.udacity.com/KHYFX7KF" }
@@ -186,13 +186,13 @@ const achievementSection = {
     },
     {
       title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development.",
+      subtitle: "Completed Certification from SMIT for PWA Web App Development.",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [{ name: "Certification", url: "" }]
     },
     {
       title: "Web & Mobile App Developer",
-      subtitle: "Completed Certifcation from SMIT for Web and Mobile App Development",
+      subtitle: "Completed Certification from SMIT for Web and Mobile App Development",
       image: require("./assets/images/smit.webp"),
       footerLink: [
         { name: "Certification", url: "" },
@@ -200,7 +200,7 @@ const achievementSection = {
     },
     {
       title: "Legacy Front End Certification",
-      subtitle: "Completed Certifcation from FreeCodeCamp for Legacy Front End",
+      subtitle: "Completed Certification from FreeCodeCamp for Legacy Front End",
       image: require("./assets/images/freecodecamp.webp"),
       footerLink: [
         { name: "Certification", url: "https://www.freecodecamp.org/certification/manalliaquat/legacy-front-end" },
@@ -208,7 +208,7 @@ const achievementSection = {
     },
     {
       title: "JavaScript Algorithms and Data Structures",
-      subtitle: "Completed Certifcation from FreeCodeCamp for JavaScript Algorithms and Data Structures",
+      subtitle: "Completed Certification from FreeCodeCamp for JavaScript Algorithms and Data Structures",
       image: require("./assets/images/freecodecamp.webp"),
       footerLink: [
         { name: "Certification", url: "https://www.freecodecamp.org/certification/manalliaquat/javascript-algorithms-and-data-structures" },
