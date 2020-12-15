@@ -229,6 +229,11 @@ const blogSection = {
       url: "https://medium.com/@m.manalliaquat/why-i-choose-react-ab215dffdb79",
       title: "Why I choose React?",
       description: "React was developed by Facebook in March 2013, now it is the most popular javascript library. React is used to create Single-Page Applications (SPA)."
+    },
+    {
+      url: "https://medium.com/swlh/cra-to-pwa-1e572207d7",
+      title: "CRA to PWA 😎",
+      description: "This is the most searched topic on the internet today, “How to convert CRA (Create React App) to PWA (Progressive Web App)”."
     }
   ]
 };
