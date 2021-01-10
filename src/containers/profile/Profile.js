@@ -33,6 +33,10 @@ export default function Profile() {
           isHireable
           avatarUrl
           location
+          status {
+            emoji
+            message
+          }
         }
     }
       `,
