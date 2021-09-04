@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13e619af8afebf111b26a032cb654df7",
+    "revision": "7a3024541720c388f4ed683d949aed17",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "ddebb79f1b70b1add239",
+    "revision": "2e848f88ee9f6affe79f",
     "url": "/static/css/main.0eb80578.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.57854d0d.chunk.js"
   },
   {
-    "revision": "ddebb79f1b70b1add239",
-    "url": "/static/js/main.94ee7048.chunk.js"
+    "revision": "2e848f88ee9f6affe79f",
+    "url": "/static/js/main.00cb6972.chunk.js"
   },
   {
     "revision": "6bbb47570d2494547645",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/freecodecamp.f3b5e468.webp"
   },
   {
-    "revision": "4b75a885e431bfa3136e540c5c5463f1",
-    "url": "/static/media/insuranceMarket.4b75a885.png"
+    "revision": "fa7012ee855f087e67b1fa5e4258dd08",
+    "url": "/static/media/insuranceMarket.fa7012ee.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
