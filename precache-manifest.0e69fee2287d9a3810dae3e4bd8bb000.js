@@ -1,39 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6260b5ca1e742a2ca92e79078ecac6d6",
+    "revision": "e576944ee4beeefaa5ae5b2eb6cda587",
     "url": "/index.html"
   },
   {
-    "revision": "8e94482840193ebbbe1f",
-    "url": "/static/css/3.b499fcd2.chunk.css"
+    "revision": "c9bd6d9ad8d8918a8fd6",
+    "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "4638b90ba8ccc6c39e19",
-    "url": "/static/css/4.01c87591.chunk.css"
+    "revision": "c283dfb055071425abf6",
+    "url": "/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "5f7b040a8634994ee1e3",
-    "url": "/static/css/main.ae1d6241.chunk.css"
+    "revision": "97a8829d578a375175c0",
+    "url": "/static/css/main.0eb80578.chunk.css"
   },
   {
-    "revision": "00a6035f4f9265c45f96",
-    "url": "/static/js/2.38bd85c6.chunk.js"
+    "revision": "a57807e596e032ad0478",
+    "url": "/static/js/2.8d47e44b.chunk.js"
   },
   {
-    "revision": "8e94482840193ebbbe1f",
-    "url": "/static/js/3.faeae8c3.chunk.js"
+    "revision": "408f8ade359af8695a328ed937291fdf",
+    "url": "/static/js/2.8d47e44b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4638b90ba8ccc6c39e19",
-    "url": "/static/js/4.dce96837.chunk.js"
+    "revision": "c9bd6d9ad8d8918a8fd6",
+    "url": "/static/js/3.f8be3652.chunk.js"
   },
   {
-    "revision": "5f7b040a8634994ee1e3",
-    "url": "/static/js/main.8be015f0.chunk.js"
+    "revision": "c283dfb055071425abf6",
+    "url": "/static/js/4.57854d0d.chunk.js"
   },
   {
-    "revision": "73af70d87caa3de709dc",
-    "url": "/static/js/runtime-main.4cb1e848.js"
+    "revision": "97a8829d578a375175c0",
+    "url": "/static/js/main.d61d07aa.chunk.js"
+  },
+  {
+    "revision": "6bbb47570d2494547645",
+    "url": "/static/js/runtime-main.9bfe2a80.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -44,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "68e841388612be0c5143e2932fb77d4f",
-    "url": "/static/media/contactMail.68e84138.webp"
+    "revision": "51cf7192327488da3d2a171280680c16",
+    "url": "/static/media/contactMailDark.51cf7192.svg"
   },
   {
     "revision": "59389695208d7454c6607bed51ed4316",
@@ -60,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/freecodecamp.f3b5e468.webp"
   },
   {
-    "revision": "25bf045ca257e971124f3997d89f321c",
-    "url": "/static/media/logo.25bf045c.svg"
+    "revision": "4b75a885e431bfa3136e540c5c5463f1",
+    "url": "/static/media/insuranceMarket.4b75a885.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
@@ -82,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "325dfdf5a1a3f00b50a270a8dd52e18e",
     "url": "/static/media/systemsAvenue.325dfdf5.webp"
+  },
+  {
+    "revision": "39eff4a91b01e00a32cb78f3797eec88",
+    "url": "/static/media/talksCardBack.39eff4a9.svg"
   },
   {
     "revision": "2e59467e0a924c7a8ec31e51a8a579fb",
