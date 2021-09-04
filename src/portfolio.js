@@ -1,19 +1,23 @@
-﻿
-/* Change this file to get your personal Portfolio */
+﻿/* Change this file to get your personal Portfolio */
 
-// Your Summary And Greeting Section
+// Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+
+const illustration = {
+  animated: true // set to false to use static SVG
+};
 
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Manal Liaquat",
   title: "Hi all, I'm Manal",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / ReactJS / NextJS / NodeJS / MongoDB / ExpressJS / React Native and some other cool libraries and frameworks."),
-  resumeLink: ""
+  resumeLink: "",
+  displayGreeting: true,
 };
 
-// Your Social Media Link
+// Social Media Links
 
 const socialMediaLinks = {
 
@@ -25,16 +29,21 @@ const socialMediaLinks = {
   instagram: "https://www.instagram.com/manal.liaquat/",
   twitter: "https://twitter.com/manalliaquat",
   freeCodeCamp: "https://www.freecodecamp.org/manalliaquat",
-  codePen: "https://codepen.io/ManalLiaquat"
+  codePen: "https://codepen.io/ManalLiaquat",
+  medium: "https://medium.com/@m.manalliaquat",
+  stackoverflow: "https://stackoverflow.com/users/12815456/manal-liaquat",
+  display: true,
 };
 
-// Your Skills Section
+// Skills Section
 
 const skillsSection = {
-  title: "What i do",
+  title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
+    emoji(
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+    ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji("⚡ Integration of third party services such as Firebase"),
     emoji("⚡ Written some scripts on Google Adwords Scripts to run Youtube ads")
@@ -97,8 +106,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -112,21 +121,34 @@ const techStack = {
       Stack: "Code Structure",
       progressPercentage: "70%"
     }
-  ]
+  ],
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-
-// Your top 3 work experiences
+// Work experience section
 
 const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Software Engineer",
+      company: "Insurance Market",
+      companylogo: require("./assets/images/insuranceMarket.png"),
+      date: "September 2021 – Present",
+      desc: "Working as a software engineer.",
+      descBullets: [
+        "Web Application Developer",
+      ]
+    },
     {
       role: "Consultant Developer",
       company: "Digital MarknAdsPlan",
       companylogo: require("./assets/images/digitalMarknAdsPlan.webp"),
-      date: "June 2020 – Present",
+      date: "June 2020 – August 2021",
       desc: "Working as a consultant developer.",
+      // descBullets: [
+      //   "Web Application Developer",
+      // ]
       descBullets: [
         "Web Application Developer",
       ]
@@ -151,31 +173,52 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "manalliaquat", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false 
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false 
+  display: true,
 };
 
-
-// Some Big Projects You have worked with your company
+// Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
-    // {
-    //   image: "",
-    //   link: ""
-    // }
-  ]
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    }
+  ],
+  display: false // Set false to hide this section, defaults to true
 };
 
-// Your Achievement Section Include Your Certification Talks and More
+// Achievement Section
+// Include certificates, talks etc
 
 const achievementSection = {
-
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle:
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
-  achivementsCards: [
+  achievementsCards: [
     {
       title: "Udacity Nano-Degree React",
       subtitle: "Completed Certification from Udacity for Web and Mobile App Development.",
@@ -214,15 +257,16 @@ const achievementSection = {
         { name: "Certification", url: "https://www.freecodecamp.org/certification/manalliaquat/javascript-algorithms-and-data-structures" },
       ]
     }
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
 const blogSection = {
-
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  subtitle:
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
   blogs: [
     {
@@ -235,14 +279,17 @@ const blogSection = {
       title: "CRA to PWA 😎",
       description: "This is the most searched topic on the internet today, “How to convert CRA (Create React App) to PWA (Progressive Web App)”."
     }
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  ),
 
   talks: [
     // {
@@ -261,7 +308,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [""]
+  podcast: ["link here"]
 };
 
 const contactInfo = {
@@ -271,11 +318,27 @@ const contactInfo = {
   email_address: "m.manalliaquat@gmail.com"
 };
 
-//Twitter Section
+// Twitter Section
 
 const twitterDetails = {
-
-  userName: "manalliaquat"//Replace "twitter" with your twitter username without @
-
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails };
+
+export {
+  illustration,
+  greeting,
+  socialMediaLinks,
+  skillsSection,
+  // educationInfo,
+  techStack,
+  workExperiences,
+  openSource,
+  bigProjects,
+  achievementSection,
+  blogSection,
+  talkSection,
+  podcastSection,
+  contactInfo,
+  twitterDetails
+};
