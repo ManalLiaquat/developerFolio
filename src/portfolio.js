@@ -149,7 +149,7 @@ const workExperiences = {
       company: "Insurance Market",
       companylogo: require("./assets/images/insuranceMarket.png"),
       date: "September 2021 – Present",
-      desc: "Working as a software engineer.",
+      desc: "Working as a software engineer."
       // descBullets: ["Web Application Developer"]
     },
     {
