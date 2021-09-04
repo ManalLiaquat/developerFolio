@@ -157,7 +157,7 @@ const workExperiences = {
       company: "Digital MarknAdsPlan",
       companylogo: require("./assets/images/digitalMarknAdsPlan.webp"),
       date: "June 2020 – August 2021",
-      desc: "Working as a consultant developer.",
+      desc: "Worked as a consultant developer.",
       // descBullets: [
       //   "Web Application Developer",
       // ]
