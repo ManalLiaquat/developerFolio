@@ -17,6 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+    "start:r": "react-scripts start",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
     "deploy": "gh-pages -b master -d build",

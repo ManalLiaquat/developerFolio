@@ -261,6 +261,18 @@ const achievementSection = {
           url: "https://www.freecodecamp.org/certification/manalliaquat/javascript-algorithms-and-data-structures"
         }
       ]
+    },
+    {
+      title: "Financial Literacy Training Program",
+      subtitle:
+        "Completed Certification from NIBAF-Pakistan for Completing Financial Literacy Training Program",
+      image: require("./assets/images/nibafPak.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://nflpy.knowledgeplatform.com/NibafAccount/DownloadGameCertificate?certificateId=19&courseSessionId=3350&userId=489915&tenantId=21&URLID=5uzwskc4hf0xfddfro8stg"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
