@@ -1,11 +1,13 @@
 ﻿/* Change this file to get your personal Portfolio */
 
-// Summary And Greeting Section
+// To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
 
+// Summary And Greeting Section
+
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: true // Set to false to use static SVG
 };
 
 const greeting = {
@@ -99,6 +101,12 @@ const skillsSection = {
     {
       skillName: "expressjs",
       fontAwesomeClassname: "fab fa-node-js"
+      // schoolName: "Stanford University",
+      // logo: require("./assets/images/stanfordLogo.png"),
+      // subHeader: "Bachelor of Science in Computer Science",
+      // duration: "September 2013 - April 2017",
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };

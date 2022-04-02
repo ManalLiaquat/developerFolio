@@ -10,12 +10,11 @@
 </p>
 
 
-Just change `src/portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the  `src/_globalColor.scss` file. Feel free to use it as-is or personalize it as much as you want.
 
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
+If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
-
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
+Created something awesome for your fork of the portfolio and want to share it? Feel free to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
 ## Table of Contents
 - [Sections](#sections)
@@ -29,7 +28,7 @@ If you created something awesome and want to contribute then feel free to open a
 - [For the Future](#for-the-future)
 - [Contributors](#project-maintainers)
 
-## Sections
+## Portfolio Sections
 ✔️ Summary and About me\
 ✔️ Skills\
 ✔️ Education\
@@ -72,25 +71,32 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/saadpasta/developerFolio.git
+git clone https://github.com/saadpasta/developerFolio.git
 
 # Go into the repository
-$ cd developerFolio
+cd developerFolio
+
+# Setup default environment variables
+
+# For Linux
+cp env.example .env
+# For Windows
+copy env.example .env
 
 # Install dependencies
-$ npm install
+npm install
 
-#Start's development server
-$ npm start
+# Start a local dev server
+npm start
 ```
 
 ## Linking Portfolio to Github
 
 Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token). If you are using [Github Actions](#configuring-github-actions-recommended) to deploy your portfolio you can skip this section.
 
-1. Create a file called .env in the root directory of your project, check the base file
+1. Create a file called .env in the root directory of your project (if not done already in section: [How To Use](#how-to-use))
 
-Note: Instead of creating a .env file, you can just run this command "cp env.example .env" inside the root directory
+Note: Configuring environment variables before deploying your portfolio is highly recommended as some components depend on API data. 
 
 ```bash
 - DeveloperFolio
@@ -125,7 +131,7 @@ If the above solution still doesn't work, visit the [wiki page](https://github.c
 
 ## Change and customize every section according to your need.
 
-#### Personalize page content in `/src/portfolio.js` & modify it as per your need.
+#### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
 
 ```javascript
 /* Change this file to get your Personal Porfolio */
@@ -170,6 +176,10 @@ const twitterDetails = { ... }
 #### Using Emojis
 
 For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
+
+#### Customize Lottie Animations
+
+You can choose a Lottie and download it in json format from from sites like [this](https://lottiefiles.com/). In `src/assets/lottie`, replace the Lottie json file you want to alter with the same file name. If you want to change the Lottie options, go to `src/components/displayLottie/DisplayLottie.js` and change the `defaultOptions` object, you can refer [react-lottie docs](https://www.npmjs.com/package/react-lottie) for more info on the `defaultOptions` object.
 
 #### Adding Twitter Time line to your Page
 Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
@@ -308,6 +318,19 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/jayhawk24"><img src="https://avatars.githubusercontent.com/u/38766415?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anubhav Gupta</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=jayhawk24" title="Code">💻</a></td>
     <td align="center"><a href="https://vatsaldavevdwpblog.wordpress.com/"><img src="https://avatars.githubusercontent.com/u/42956495?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vatsal Dave</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=vatsaldaveVD" title="Code">💻</a></td>
     <td align="center"><a href="http://www.elvisciuffetelli.com"><img src="https://avatars.githubusercontent.com/u/35818757?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Elvis Ciuffetelli</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=elvisciuffetelli" title="Code">💻</a></td>
+    <td align="center"><a href="http://ScottJellen.com"><img src="https://avatars.githubusercontent.com/u/51421669?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Scott Jellen</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=SJellen" title="Code">💻</a> <a href="#design-SJellen" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/karthik-mohan-/"><img src="https://avatars.githubusercontent.com/u/25052382?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Karthik Mohan</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/issues?q=author%3Akarthikmohan" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/mhowell11"><img src="https://avatars.githubusercontent.com/u/62813469?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mhowell11</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=mhowell11" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/gajanandh"><img src="https://avatars.githubusercontent.com/u/80502737?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gajanandh</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/issues?q=author%3Agajanandh" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/JooHyukKim"><img src="https://avatars.githubusercontent.com/u/61615301?v=4?s=100" width="100px;" alt=""/><br /><sub><b>JooHyukKim</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=JooHyukKim" title="Code">💻</a></td>
+    <td align="center"><a href="https://redheadphone.github.io/"><img src="https://avatars.githubusercontent.com/u/55500003?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Red Headphone</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=RedHeadphone" title="Code">💻</a></td>
+    <td align="center"><a href="https://sunitroy2703.github.io"><img src="https://avatars.githubusercontent.com/u/67560900?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sunit Roy</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/issues?q=author%3ASunitRoy2703" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/nayabatir1"><img src="https://avatars.githubusercontent.com/u/91016903?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Atir Nayab</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/issues?q=author%3Anayabatir1" title="Bug reports">🐛</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://thatdevsherry.pk"><img src="https://avatars.githubusercontent.com/u/40890226?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shehriyar Qureshi</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=thatdevsherry" title="Code">💻</a></td>
   </tr>
 </table>
 

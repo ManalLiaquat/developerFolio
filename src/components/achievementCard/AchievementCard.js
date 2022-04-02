@@ -1,8 +1,11 @@
 import React from "react";
-import "./AchievementCard.css";
+import "./AchievementCard.scss";
 
 export default function AchievementCard({cardInfo, isDark}) {
   function openUrlInNewTab(url) {
+    if (!url) {
+      return;
+    }
     var win = window.open(url, "_blank");
     win.focus();
   }
