@@ -162,12 +162,23 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Backend Engineer",
+      company: "Plai - Marketing",
+      companylogo: require("./assets/images/plai.png"),
+      date: "January 2024 – Present",
+      desc: "Working as a software engineer.",
+      descBullets: ["Backend Team Lead", "Backend Application Engineer"]
+    },
+    {
       role: "Software Engineer",
       company: "Insurance Market",
       companylogo: require("./assets/images/insuranceMarket.png"),
-      date: "September 2021 – Present",
-      desc: "Working as a software engineer."
-      // descBullets: ["Web Application Developer"]
+      date: "September 2021 – December 2023",
+      desc: "Working as a software engineer.",
+      descBullets: [
+        "Web Application Developer",
+        "Backend Application Developer"
+      ]
     },
     {
       role: "Consultant Developer",
@@ -175,9 +186,6 @@ const workExperiences = {
       companylogo: require("./assets/images/digitalMarknAdsPlan.webp"),
       date: "June 2020 – August 2021",
       desc: "Worked as a consultant developer.",
-      // descBullets: [
-      //   "Web Application Developer",
-      // ]
       descBullets: ["Web Application Developer"]
     },
     {
